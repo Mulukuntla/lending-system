@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Lending System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Book Lending System</h1>
+    
+    
+    <div id="books-list">
+      <h2>Available Books</h2>
+      <ul id="book-list"></ul>
+    </div>
+
+    <div id="borrow-book-form">
+      <h2>Borrow a Book</h2>
+      <input type="text" id="book-id" placeholder="Book ID" />
+      <button id="borrow-btn">Borrow</button>
+    </div>
+    
+    <div id="return-book-form">
+      <h2>Return a Book</h2>
+      <input type="text" id="return-book-id" placeholder="Book ID" />
+      <button id="return-btn">Return</button>
+    </div>
+    
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
